@@ -13,11 +13,6 @@ export default new Router({
       component: () => import('./views/Hot.vue')
     },
     {
-      path: '/ask',
-      name: 'ask',
-      component: () => import('./views/Ask.vue')
-    },
-    {
       path: '/show',
       name: 'show',
       component: () => import('./views/Show.vue')
